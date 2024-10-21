@@ -1,9 +1,16 @@
 import streamlit as st
+__import__ ('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 from langchain_community.document_loaders import WebBaseLoader
 
 from chains import Chain
 from portfolio import Portfolio
 from utils import clean_text
+
+
 
 
 def create_streamlit_app(llm, portfolio, clean_text):
