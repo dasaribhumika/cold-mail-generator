@@ -14,13 +14,13 @@ git clone https://github.com/yourusername/cold-message-generator.git
 cd cold-message-generator
 
 # Step 2: Create and Activate Virtual Environment 
-Create virtual environment
+Create virtual environment:
 python3 -m venv venv
 
-Activate virtual environment (Linux/Mac)
+Activate virtual environment (Linux/Mac):
 source venv/bin/activate
 
-Activate virtual environment (Windows)
+Activate virtual environment (Windows):
 .\venv\Scripts\activate
 
 # Step 3: Install Required Dependencies
