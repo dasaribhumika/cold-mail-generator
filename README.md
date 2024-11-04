@@ -27,7 +27,7 @@ Activate virtual environment (Windows):
 pip install -r requirements.txt
 
 # Step 4: Run the Application
-streamlit run app.py
+streamlit run app/main.py
 
 # Step 5: Access the Application
 Once the app is running, open your browser and go to:
